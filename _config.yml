@@ -3,11 +3,11 @@ markdown:         kramdown
 highlighter:      rouge
 remote_theme:     fongandrew/hydeout
 # Setup
-title:            Serendipity
+title:            Hydeout
 paginate:         5
 tagline:          'A Jekyll theme'
-description:      'Jason's blog' 
-url:              https://Bloodline-2000.github.io
+description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+url:              https://fongandrew.github.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -16,7 +16,10 @@ baseurl:          ''
                   # sidebar_blog_link below.
 
 author:
-  name:           'Jason Zheng'
+  name:           'Andrew Fong'
+  url:            https://twitter.com/fongandrewc
+
+paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
