@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 remote_theme:     fongandrew/hydeout
 # Setup
-title:            Serendipity
+title:            Hygge
 paginate:         5
 tagline:          'A Jekyll theme'
 description:      'blog of zs'
