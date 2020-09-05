@@ -3,10 +3,10 @@ markdown:         kramdown
 highlighter:      rouge
 remote_theme:     fongandrew/hydeout
 # Setup
-title:            Hydeout
+title:            Serendipity
 paginate:         5
 tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+description:      'zs's blog'
 url:              https://fongandrew.github.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
@@ -16,7 +16,7 @@ baseurl:          ''
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
+  name:           'Jason Zheng'
   url:            https://twitter.com/fongandrewc
 
 paginate:         5
