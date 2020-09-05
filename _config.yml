@@ -4,6 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            Serendipity
+remote_theme:     fongandrew/hydeout
 tagline:          'A Jekyll theme'
 description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
 url:              https://Bloodline-2000.github.io
