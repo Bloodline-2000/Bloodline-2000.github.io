@@ -1,39 +1,34 @@
-# Site settings
-title: zs-Uno
-description: 'zs-Uno - a minimal, responsive theme'
-url: 'http://Bloodline-2000.github.io'
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            Serendipity
+tagline:          'A Jekyll theme'
+description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+url:              https://Bloodline-2000.github.io
+baseurl:          '/hydeout'
+                  # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
 
 author:
-  name: 'Jason Zheng'
-  email: 'Shen.18@intl.zju.edu.cn'
-  github_username:  Bloodline-2000
+  name:           'Jason Zheng'
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
 
-# Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
-sass:
-    sass_dir: _sass
-    style: compressed
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+# Sidebar link settings
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
